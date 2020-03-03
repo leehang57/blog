@@ -45,14 +45,14 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.sitemaps',
     # 'mdeditor',
-    'haystack',
-    'blog',
-    'accounts',
-    'comments',
-    'oauth',
-    'servermanager',
-    'owntracks',
-    'compressor'
+    # 'haystack',
+    # 'blog',
+    # 'accounts',
+    # 'comments',
+    # 'oauth',
+    # 'servermanager',
+    # 'owntracks',
+    # 'compressor'
 ]
 
 MIDDLEWARE = [
@@ -103,8 +103,7 @@ DATABASES = {
         'PASSWORD': "123456",
         'HOST': "127.0.0.1",
         'PORT': 3306,
-        'OPTIONS': {'charset': 'utf8mb4',
-        "init_command": "SET foreign_key_checks = 0;"},
+        'OPTIONS': {'charset': 'utf8mb4',},
     }
 }
 
